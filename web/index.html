@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EchoLens</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>EchoLens</h1>
+        <p>Semantic search over your local knowledge base.</p>
+      </header>
+      <section class="panel">
+        <form id="searchForm">
+          <input id="queryInput" placeholder="Search notes" required />
+          <button>Search</button>
+        </form>
+        <button id="seedButton" class="ghost">Load sample docs</button>
+      </section>
+      <section class="panel">
+        <h2>Results</h2>
+        <ul id="results"></ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
