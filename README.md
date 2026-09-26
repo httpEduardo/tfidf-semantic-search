@@ -1,6 +1,8 @@
-# EchoLens
+# Tfidf Semantic Search
 
-EchoLens is a local semantic search engine for knowledge bases. It builds TF-IDF vectors from notes, scores them with cosine similarity, and serves a clean web UI plus a JSON API.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+
+Tfidf Semantic Search is a local semantic search engine for knowledge bases. It builds TF-IDF vectors from notes, scores them with cosine similarity, and serves a clean web UI plus a JSON API.
 
 ## Features
 
@@ -12,7 +14,7 @@ EchoLens is a local semantic search engine for knowledge bases. It builds TF-IDF
 ## Quick start
 
 ```bash
-python -m app.server --port 5173
+python -m tfidf_semantic_search.server --port 5173
 ```
 
 Open http://localhost:5173
